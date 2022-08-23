@@ -4,18 +4,22 @@ import uploadAsyncElegantOTA as asyncOTA
 import espota as basicOTA
 
 
-def uploadFromList(listFileName, otaType, timeout = 10):
+def uploadFromList(ipRangeStart,ipRangeEnd,skipList, firmwarePath, otaType, timeout = 10):
     """A function that uploads firmware to multiple ESP32s OTA
        
     Parameters
     ----------
-    listFileName : str
-        The name of the text file that stores the ESP32 addresses and firmware file paths
-        The file must be a comma separated value file (csv) with the following shape:
+    iPRangeStart : int
+        The start of the ip range in which the ESPs are connected
 
-        ipAddress,firmwarePath
-        ipAddress,firmwarePath
-        ...
+    iPRangeEnd : int
+        The end of the ip range in which the ESPs are connected
+
+    skipList : int[]
+        An array of ints with the ip terminators to skip while uploading
+
+    firmwarePath : str
+        The path of the firmware file to upload
 
 
     otaType : str
@@ -27,20 +31,14 @@ def uploadFromList(listFileName, otaType, timeout = 10):
     """
 
 
-
-    with open(listFileName) as f:
-        reader = csv.reader(f, delimiter=',')
-        addresses = [(col1, col2)
-                    for col1, col2 in reader]
-
-
-    for i in range(len(addresses)):
-        print(addresses[i][0])
-        if(otaType=='asyncOTA'):
-            asyncOTA.upload(addresses[i][1],"http://"+addresses[i][0]+"/update",timeout)
-        if(otaType=='basicOTA'):
-            basicOTA.TIMEOUT = timeout
-            basicOTA.serve(addresses[i][0], "0.0.0.0", 3232, random.randint(10000,60000), "", addresses[i][1])
+    for i in range(ipRangeStart,ipRangeEnd):
+        if i not in skipList:
+            print("192.168.1."+i)
+            if(otaType=='asyncOTA'):
+                asyncOTA.upload(firmwarePath,"http://192.168.1."+i+"/update",timeout)
+            if(otaType=='basicOTA'):
+                basicOTA.TIMEOUT = timeout
+                basicOTA.serve("192.168.1."+i, "0.0.0.0", 3232, random.randint(10000,60000), "", firmwarePath)
 
 
 
