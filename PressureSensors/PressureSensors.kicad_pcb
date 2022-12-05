@@ -5,6 +5,15 @@
   )
 
   (paper "A4")
+  (title_block
+    (title "Mozart Pressure Sensors")
+    (rev "1,0")
+    (comment 1 "Rodrigo Moreno Garcia")
+    (comment 2 "REAL")
+    (comment 3 "ITU")
+    (comment 4 "MOZART Project")
+  )
+
   (layers
     (0 "F.Cu" signal)
     (31 "B.Cu" signal)
