@@ -382,7 +382,7 @@
         "nets": [
           "+3V3",
           "/Vin",
-          "Net-(J2-Pad1)"
+          "Net-(D2-Pad1)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",

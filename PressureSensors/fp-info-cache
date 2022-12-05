@@ -1,4 +1,4 @@
-20251001871109054
+20251001429232461
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -50218,19 +50218,19 @@ CubeSidePad
 1
 1
 Custom
-ESP32-S2-WROVER
-ESP32-S2-WROVER(-I) 2.4 GHz Wi-Fi https://www.espressif.com/sites/default/files/documentation/esp32-s2-wroom_esp32-s2-wroom-i_datasheet_en.pdf
-ESP32-S2  ESP32  WIFI
-0
-51
-51
-Custom
 K7803JT-500R3-SMD
 
 
 0
 4
 4
+Custom
+LPS22HBTR
+
+
+0
+10
+10
 Custom
 L_4.5x4_H3.2
 
