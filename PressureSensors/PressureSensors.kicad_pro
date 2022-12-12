@@ -390,10 +390,6 @@
         "microvia_drill": 0.1,
         "name": "I2C",
         "nets": [
-          "/SA01",
-          "/SA02",
-          "/SA03",
-          "/SA04",
           "/SCL",
           "/SCL0",
           "/SCL1",
@@ -425,6 +421,7 @@
         "nets": [
           "+12V",
           "+3V3",
+          "/VCC",
           "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
