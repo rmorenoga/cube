@@ -390,10 +390,20 @@
         "microvia_drill": 0.1,
         "name": "I2C",
         "nets": [
+          "/SA01",
+          "/SA02",
+          "/SA03",
+          "/SA04",
+          "/SCL",
+          "/SCL0",
           "/SCL1",
-          "/SCL2",
+          "/SDA",
+          "/SDA0",
           "/SDA1",
-          "/SDA2"
+          "unconnected-(U1-Pad7)",
+          "unconnected-(U2-Pad7)",
+          "unconnected-(U3-Pad7)",
+          "unconnected-(U4-Pad7)"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
@@ -415,8 +425,7 @@
         "nets": [
           "+12V",
           "+3V3",
-          "GND",
-          "Net-(D1-Pad1)"
+          "GND"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
