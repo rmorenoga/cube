@@ -2534,7 +2534,7 @@
     (property "Reference" "C7" (id 0) (at 193.04 34.2899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "0.1u" (id 1) (at 193.04 36.8299 0)
+    (property "Value" "1u" (id 1) (at 193.04 36.8299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (id 2) (at 190.8302 39.37 0)
@@ -2829,7 +2829,7 @@
       (reference "C6") (unit 1) (value "4.7u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/dfda87cb-0ac8-4831-aebf-0d999d9fa492"
-      (reference "C7") (unit 1) (value "0.1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+      (reference "C7") (unit 1) (value "1u") (footprint "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
     )
     (path "/c09022ea-afac-415b-a921-4dcd47fbfb9e"
       (reference "D1") (unit 1) (value "LED") (footprint "LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder")
