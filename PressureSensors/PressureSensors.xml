@@ -1,0 +1,611 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>C:\Users\rodr\git\cube\PressureSensors\PressureSensors.kicad_sch</source>
+    <date>14-12-2022 11:34:27</date>
+    <tool>Eeschema (6.0.5)</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title>Mozart Pressure Sensors</title>
+        <company/>
+        <rev>1.1</rev>
+        <date/>
+        <source>PressureSensors.kicad_sch</source>
+        <comment number="1" value="Rodrigo Moreno Garcia"/>
+        <comment number="2" value="REAL"/>
+        <comment number="3" value="ITU"/>
+        <comment number="4" value="MOZART Project"/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>76eeac78-6105-4b06-acd5-9080bf391b97</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4b018a30-a24b-4881-ab35-a819f6194b2f</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>99419164-ef7e-428b-bd3e-caacb65c33e1</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100n</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32e5cca6-b1ad-41b1-83ed-3ed31ca508ef</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5f08a277-8e9b-44e7-bb4f-013aa2f53407</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>4.7u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a355c205-37c4-4995-9885-37341a2cbacb</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>1u</value>
+      <footprint>Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dfda87cb-0ac8-4831-aebf-0d999d9fa492</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LED</value>
+      <footprint>LED_SMD:LED_0805_2012Metric_Pad1.15x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="LED" description="Light emitting diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c09022ea-afac-415b-a921-4dcd47fbfb9e</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>D_Schottky</value>
+      <footprint>Diode_SMD:D_SMA</footprint>
+      <libsource lib="Device" part="D_Schottky" description="Schottky diode"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1e882363-d1c2-4584-9569-783c43d6bb1b</tstamps>
+    </comp>
+    <comp ref="IC1">
+      <value>BD733L2FP3-CE2</value>
+      <footprint>Custom:SOT230P700X180-4N</footprint>
+      <datasheet>http://uk.rs-online.com/web/p/products/1288876P</datasheet>
+      <fields>
+        <field name="Description">ROHM BD733L2FP3-CE2, LDO Regulator, 200mA, 3.3 V, +/-2%, 4.37  45 Vin, SOT-223-4F 4-Pin</field>
+        <field name="Height">1.8</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BD733L2FP3-CE2</field>
+        <field name="RS Part Number">1288876P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1288876P</field>
+      </fields>
+      <libsource lib="Custom" part="BD733L2FP3-CE2" description="ROHM BD733L2FP3-CE2, LDO Regulator, 200mA, 3.3 V, +/-2%, 4.37  45 Vin, SOT-223-4F 4-Pin"/>
+      <property name="Description" value="ROHM BD733L2FP3-CE2, LDO Regulator, 200mA, 3.3 V, +/-2%, 4.37  45 Vin, SOT-223-4F 4-Pin"/>
+      <property name="Height" value="1.8"/>
+      <property name="RS Part Number" value="1288876P"/>
+      <property name="RS Price/Stock" value="http://uk.rs-online.com/web/p/products/1288876P"/>
+      <property name="Manufacturer_Name" value="ROHM Semiconductor"/>
+      <property name="Manufacturer_Part_Number" value="BD733L2FP3-CE2"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>064261b6-d568-448b-9640-8ef84c4c0af0</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>Conn_02x03_Odd_Even</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_2x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector_Generic" part="Conn_02x03_Odd_Even" description="Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9c85adff-3ddc-4e03-97bb-66c75b5f6837</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>da830ff9-9c0c-45fd-89b9-c8d0cca4a410</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0eeb4231-1484-4025-aa61-2d4a89eb0be2</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5342547-d35f-40c3-877f-ba6848fb4187</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>32055e73-e70a-44d4-b64d-0331d541974a</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5adb9094-d0ff-436f-ab62-8e3bf54048e6</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90a17ddc-fba6-46be-92d8-f1782884656d</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e1fccc5d-867f-42e2-b3ef-635be43c570d</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e29782c6-064d-462a-ada8-300d0dfee929</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1b6aa17b-0ceb-4a33-a549-874d14064c6c</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38df3efe-e2dc-47bf-ab09-f1428893c0c6</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>10k</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>02df7c8d-ec1c-4955-978f-ec4c33af303a</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LPS22HB</value>
+      <footprint>Custom:LPS22HBTR</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/lps22hb.pdf</datasheet>
+      <libsource lib="Custom" part="LPS22HB" description="MEMS pressure sensor, 260-1260 hPa, absolute digital output baromeeter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>63cc18e1-57cd-46fd-b9f9-7eddb183d233</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>LPS22HB</value>
+      <footprint>Custom:LPS22HBTR</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/lps22hb.pdf</datasheet>
+      <libsource lib="Custom" part="LPS22HB" description="MEMS pressure sensor, 260-1260 hPa, absolute digital output baromeeter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>16cf0de2-dfc6-40f1-a5c5-6e633650252b</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>LPS22HB</value>
+      <footprint>Custom:LPS22HBTR</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/lps22hb.pdf</datasheet>
+      <libsource lib="Custom" part="LPS22HB" description="MEMS pressure sensor, 260-1260 hPa, absolute digital output baromeeter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a54676d1-8471-4e20-a4bc-2c8ef9f2c3b5</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>LPS22HB</value>
+      <footprint>Custom:LPS22HBTR</footprint>
+      <datasheet>www.st.com/resource/en/datasheet/lps22hb.pdf</datasheet>
+      <libsource lib="Custom" part="LPS22HB" description="MEMS pressure sensor, 260-1260 hPa, absolute digital output baromeeter"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>60faed0b-b7a9-43c5-923f-df25789a8bdc</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>PCA9543AD</value>
+      <footprint>Custom:PCA9543AD</footprint>
+      <libsource lib="Custom" part="PCA9543AD" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="PressureSensors.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>31922f8b-0b26-4c6c-bc8d-ef17fe027ae4</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Connector_Generic" part="Conn_02x03_Odd_Even">
+      <description>Generic connector, double row, 02x03, odd/even pin numbering scheme (row 1 odd numbers, row 2 even numbers), script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_2x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_02x03_Odd_Even</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="BD733L2FP3-CE2">
+      <description>ROHM BD733L2FP3-CE2, LDO Regulator, 200mA, 3.3 V, +/-2%, 4.37  45 Vin, SOT-223-4F 4-Pin</description>
+      <docs>http://uk.rs-online.com/web/p/products/1288876P</docs>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">BD733L2FP3-CE2</field>
+        <field name="Footprint">SOT230P700X180-4N</field>
+        <field name="Datasheet">http://uk.rs-online.com/web/p/products/1288876P</field>
+        <field name="Description">ROHM BD733L2FP3-CE2, LDO Regulator, 200mA, 3.3 V, +/-2%, 4.37  45 Vin, SOT-223-4F 4-Pin</field>
+        <field name="Height">1.8</field>
+        <field name="RS Part Number">1288876P</field>
+        <field name="RS Price/Stock">http://uk.rs-online.com/web/p/products/1288876P</field>
+        <field name="Manufacturer_Name">ROHM Semiconductor</field>
+        <field name="Manufacturer_Part_Number">BD733L2FP3-CE2</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VCC" type="passive"/>
+        <pin num="2" name="N.C./GND" type="passive"/>
+        <pin num="3" name="VOUT" type="passive"/>
+        <pin num="4" name="GND" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="LPS22HB">
+      <description>MEMS pressure sensor, 260-1260 hPa, absolute digital output baromeeter</description>
+      <docs>www.st.com/resource/en/datasheet/lps22hb.pdf</docs>
+      <footprints>
+        <fp>ST?HLGA*2.5x2.5mm*P0.6mm*LayoutBorder3x2y*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LPS22HB</field>
+        <field name="Footprint">Custom:LPS22HBTR</field>
+        <field name="Datasheet">www.st.com/resource/en/datasheet/lps22hb.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VDDio" type="power_in"/>
+        <pin num="2" name="SCL/SCLK" type="input"/>
+        <pin num="3" name="GND" type="passive"/>
+        <pin num="4" name="SDA/MOSI" type="bidirectional"/>
+        <pin num="5" name="SA0/MISO" type="bidirectional"/>
+        <pin num="6" name="~{CS}" type="input"/>
+        <pin num="7" name="INT_DRDY" type="output"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GND" type="passive"/>
+        <pin num="10" name="VDD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Custom" part="PCA9543AD">
+      <footprints>
+        <fp>D14</fp>
+        <fp>D14-M</fp>
+        <fp>D14-L</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PCA9543AD</field>
+        <field name="Footprint">D14</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A0" type="input"/>
+        <pin num="2" name="A1" type="input"/>
+        <pin num="3" name="*RESET" type="input"/>
+        <pin num="4" name="*INT0" type="input"/>
+        <pin num="5" name="SD0" type="unspecified"/>
+        <pin num="6" name="SC0" type="unspecified"/>
+        <pin num="7" name="GND" type="power_in"/>
+        <pin num="8" name="*INT1" type="input"/>
+        <pin num="9" name="SD1" type="unspecified"/>
+        <pin num="10" name="SC1" type="unspecified"/>
+        <pin num="11" name="*INT" type="output"/>
+        <pin num="12" name="SCL" type="unspecified"/>
+        <pin num="13" name="SDA" type="unspecified"/>
+        <pin num="14" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_Schottky">
+      <description>Schottky diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_Schottky</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="LED">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector_Generic">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Connector_Generic.kicad_sym</uri>
+    </library>
+    <library logical="Custom">
+      <uri>C:\Users\rodr\git\cube\PressureSensors/Custom.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="IC1" pin="3" pinfunction="VOUT" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="VDDio" pintype="power_in"/>
+      <node ref="U1" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U1" pin="5" pinfunction="SA0/MISO" pintype="bidirectional"/>
+      <node ref="U1" pin="6" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U2" pin="1" pinfunction="VDDio" pintype="power_in"/>
+      <node ref="U2" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U2" pin="6" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U3" pin="1" pinfunction="VDDio" pintype="power_in"/>
+      <node ref="U3" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U3" pin="5" pinfunction="SA0/MISO" pintype="bidirectional"/>
+      <node ref="U3" pin="6" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U4" pin="1" pinfunction="VDDio" pintype="power_in"/>
+      <node ref="U4" pin="10" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U4" pin="6" pinfunction="~{CS}" pintype="input"/>
+      <node ref="U5" pin="14" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="2" name="+12V">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+    </net>
+    <net code="3" name="/SCL">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="U5" pin="12" pinfunction="SCL" pintype="unspecified"/>
+    </net>
+    <net code="4" name="/SCL0">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="SCL/SCLK" pintype="input"/>
+      <node ref="U2" pin="2" pinfunction="SCL/SCLK" pintype="input"/>
+      <node ref="U5" pin="6" pinfunction="SC0" pintype="unspecified"/>
+    </net>
+    <net code="5" name="/SCL1">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="SCL/SCLK" pintype="input"/>
+      <node ref="U4" pin="2" pinfunction="SCL/SCLK" pintype="input"/>
+      <node ref="U5" pin="10" pinfunction="SC1" pintype="unspecified"/>
+    </net>
+    <net code="6" name="/SDA">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U5" pin="13" pinfunction="SDA" pintype="unspecified"/>
+    </net>
+    <net code="7" name="/SDA0">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="SDA/MOSI" pintype="bidirectional"/>
+      <node ref="U2" pin="4" pinfunction="SDA/MOSI" pintype="bidirectional"/>
+      <node ref="U5" pin="5" pinfunction="SD0" pintype="unspecified"/>
+    </net>
+    <net code="8" name="/SDA1">
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="SDA/MOSI" pintype="bidirectional"/>
+      <node ref="U4" pin="4" pinfunction="SDA/MOSI" pintype="bidirectional"/>
+      <node ref="U5" pin="9" pinfunction="SD1" pintype="unspecified"/>
+    </net>
+    <net code="9" name="/VCC">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="1" pinfunction="VCC" pintype="passive"/>
+    </net>
+    <net code="10" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="IC1" pin="2" pinfunction="N.C./GND" pintype="passive"/>
+      <node ref="IC1" pin="4" pinfunction="GND" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J1" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U1" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U2" pin="5" pinfunction="SA0/MISO" pintype="bidirectional"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U2" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U3" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="passive"/>
+      <node ref="U4" pin="5" pinfunction="SA0/MISO" pintype="bidirectional"/>
+      <node ref="U4" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="9" pinfunction="GND" pintype="passive"/>
+      <node ref="U5" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U5" pin="2" pinfunction="A1" pintype="input"/>
+      <node ref="U5" pin="7" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="11" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="Net-(R7-Pad1)">
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="*INT0" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(R9-Pad1)">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="*RESET" pintype="input"/>
+    </net>
+    <net code="14" name="Net-(R12-Pad2)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="U5" pin="11" pinfunction="*INT" pintype="output"/>
+    </net>
+    <net code="15" name="Net-(R15-Pad2)">
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U5" pin="8" pinfunction="*INT1" pintype="input"/>
+    </net>
+    <net code="16" name="unconnected-(U1-Pad7)">
+      <node ref="U1" pin="7" pinfunction="INT_DRDY" pintype="output+no_connect"/>
+    </net>
+    <net code="17" name="unconnected-(U2-Pad7)">
+      <node ref="U2" pin="7" pinfunction="INT_DRDY" pintype="output+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(U3-Pad7)">
+      <node ref="U3" pin="7" pinfunction="INT_DRDY" pintype="output+no_connect"/>
+    </net>
+    <net code="19" name="unconnected-(U4-Pad7)">
+      <node ref="U4" pin="7" pinfunction="INT_DRDY" pintype="output+no_connect"/>
+    </net>
+  </nets>
+</export>
