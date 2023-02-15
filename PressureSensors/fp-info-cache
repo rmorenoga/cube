@@ -1,4 +1,4 @@
-20254360011524725
+20256033975342553
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -50231,6 +50231,13 @@ LPS22HBTR
 0
 10
 10
+Custom
+LPS33HW
+
+
+0
+11
+11
 Custom
 L_4.5x4_H3.2
 
