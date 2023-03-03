@@ -1,10 +1,11 @@
-import csv
 import random
 import uploadAsyncElegantOTA as asyncOTA
 import espota as basicOTA
+import subprocess
+import os
 
 
-def uploadFromList(ipRangeStart,ipRangeEnd,skipList, firmwarePath, otaType, timeout = 10):
+def uploadFromList(network, ipRangeStart,ipRangeEnd, firmwarePath, otaType, timeout = 10,skipList = []):
     """A function that uploads firmware to multiple ESP32s OTA
        
     Parameters
@@ -30,17 +31,33 @@ def uploadFromList(ipRangeStart,ipRangeEnd,skipList, firmwarePath, otaType, time
         The time out time in seconds for connecting to the ESPs and reading a response (default is 10)
     """
 
+   
+    if os.name == 'nt':
+        wifi = subprocess.check_output(['netsh', 'WLAN', 'show', 'interfaces'])
+        data = wifi.decode('utf-8')
+    else:
+        wifi = subprocess.check_output(['sudo', 'iwgetid'])
+        data = wifi.decode('utf-8')
 
-    for i in range(ipRangeStart,ipRangeEnd):
-        if i not in skipList:
-            print("192.168.1."+i)
-            if(otaType=='asyncOTA'):
-                asyncOTA.upload(firmwarePath,"http://192.168.1."+i+"/update",timeout)
-            if(otaType=='basicOTA'):
-                basicOTA.TIMEOUT = timeout
-                basicOTA.serve("192.168.1."+i, "0.0.0.0", 3232, random.randint(10000,60000), "", firmwarePath)
+    if network in data:
+        print("Connected to network: " + network)
+    
+        for i in range(ipRangeStart,ipRangeEnd):
+            if i not in skipList:
+                print("192.168.1."+str(i))
+                try:
+                    if(otaType=='asyncOTA'):
+                        asyncOTA.upload(firmwarePath,"http://192.168.1."+str(i)+"/update",timeout)
+                    if(otaType=='basicOTA'):
+                        basicOTA.TIMEOUT = timeout
+                        basicOTA.serve("192.168.1."+str(i), "0.0.0.0", 3232, random.randint(10000,60000), "", firmwarePath)
+                except:
+                    print("Exception caught")
+
+    else:
+        print("Not connected to network: " + network)
 
 
 
-#uploadFromList('espAddresses.csv','basicOTA')
-help(uploadFromList)
+uploadFromList("Tiles",118,122,"BoardTest3DLED.ino.adafruit_metro_esp32s2.bin","asyncOTA")
+#help(uploadFromList)
