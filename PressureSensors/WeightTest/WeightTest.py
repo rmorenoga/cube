@@ -17,7 +17,7 @@ class Sensor:
 
         #Connect to arduino
         self.arduino = serial.Serial(port=comPort, baudrate=115200, timeout=2)
-        time.sleep(10)
+        time.sleep(5)
 
         #Do a first reading
         self.arduino.write(bytes('r', 'utf-8'))
@@ -36,15 +36,19 @@ class Sensor:
 
         return data
     
+    def closeSensor(self):
+        self.arduino.close()
+        time.sleep(0.5)
+    
 
 def main():
 
-    weights = [0,35]
+    weights = [0,35, 85, 135, 235, 535]
     positions = [0, 5, 10, 15, 20]
 
     #Init sensor
     sensor = Sensor()
-    sensor.init("MPL")
+    #sensor.init("LPS33HW")
 
     column_names = ["Model","Position","Weight","Pressure","Temperature"]
     file = 'WeightTest'+sensor.model+".csv"
@@ -58,6 +62,7 @@ def main():
 
         #Cycle through weights
         for w in weights:
+            sensor.init("LPS33HW")
             print("Put weight "+str(w))
             input("Press Enter to take readings...")
             readingsPressure = []
@@ -72,13 +77,15 @@ def main():
                 #readingsTemperature.append(splitData[1])
                 time.sleep(0.2)
 
-            
+            sensor.closeSensor()
             print(df)
+            print("Remove Weight")
+            input("Press Enter to continue...")
             df.to_csv(file)
 
             #Cycle through weights
         for w in reversed(weights[ : -1]):
-
+            sensor.init("LPS33HW")
             print("Put weight "+str(w))
             input("Press Enter to take readings...")
             readingsPressure = []
@@ -92,8 +99,11 @@ def main():
                 #readingsPressure.append(splitData[0])
                 #readingsTemperature.append(splitData[1])
                 time.sleep(0.2)
-
+            
+            sensor.closeSensor()
             print(df)
+            print("Remove Weight")
+            input("Press Enter to continue...")
             df.to_csv(file)
 
 
